@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+header {
+	position: fixed;
+	background: #131313;
+	z-index: 200;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 76px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+	color: #FFF;
+}
+header .icon-menu {
+	color: #fff;
+	font-size: 1.304rem;
+}
+header .icon-home {
+	color: #d9415a;
+	font-weight: bold;
+	font-size: 1.304rem;
+}
+header .icon-account {
+	color: #fff;
+	font-size: 1.304rem;
+	font-weight: bold;
+}
+header .icon-account::before {
+	content:"";
+}
